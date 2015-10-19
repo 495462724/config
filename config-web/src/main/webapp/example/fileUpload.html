@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+    <link rel="stylesheet" href="/config/3rd/extjs/resources/css/ext-all.css">
+    <link rel="stylesheet" type="text/css" href="/config/3rd/extjs/examples/ux/fileuploadfield/css/fileuploadfield.css"/>
+
+    <script type="text/javascript" src="/config/3rd/extjs/adapter/ext/ext-base-debug.js"></script>
+    <script type="text/javascript" src="/config/3rd/extjs/ext-all-debug.js"></script>
+    <script type="text/javascript" src="/config/3rd/extjs/src/locale/ext-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="/config/3rd/extjs/examples/ux/fileuploadfield/FileUploadField.js"></script>
+    <script type="text/javascript" src="/config/3rd/extjs/ux/fileUpload/FileUploadPanel.js"></script>
+    <script type="text/javascript">
+        Ext.onReady(function(){
+            new FileUploadPanel({
+                title : '非flash多文件上传',
+                width : 500,
+                height : 350
+            }).render(Ext.getBody());
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
