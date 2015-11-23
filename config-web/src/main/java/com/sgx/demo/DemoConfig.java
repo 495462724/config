@@ -6,6 +6,7 @@ import com.jfinal.config.*;
  * Created by Administrator on 2015/5/20 0020.
  */
 public class DemoConfig extends JFinalConfig {
+
     public void configConstant(Constants me) {
         me.setDevMode(true);
     }
